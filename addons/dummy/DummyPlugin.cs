@@ -7,7 +7,7 @@ public partial class DummyPlugin : EditorPlugin
     public override void _EnterTree()
     {
         var uidPath = "uid://dr1hds7vve78t";
-        var resPath = "res://addons/dummy/resource.tres";
+        var resPath = "res://resource.tres";
         var uidResource = ResourceLoader.Load<Resource>(uidPath);
 
         if (uidResource == null)
